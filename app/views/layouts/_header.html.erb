@@ -1,6 +1,7 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to "sample app", root_path, id: "logo" %>
+  <br>
+  <div class="container" id="pic">
+    <%= link_to "ToDoList", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav pull-right">
         <li><%= link_to "Home", root_path %></li>
@@ -24,6 +25,7 @@
             </li>
         <% else %>
             <li><%= link_to "Log in", login_path %></li>
+            <li><%= link_to "Sign up", signup_path %></li>
         <% end %>
       </ul>
     </nav>

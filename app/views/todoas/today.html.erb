@@ -1,3 +1,4 @@
+<br>
 <h2>Today's Todos</h2>
 
 <table>
@@ -15,9 +16,8 @@
         <tr>
           <td><%= todoa.content %></td>
           <td><%= todoa.due %></td>
-          <td><%= link_to image_tag("http://www.psdgraphics.com/file/right-check-mark.jpg", width:'40',height:'32'), todoa, method: :delete %></td>
-
-          <td><%= link_to image_tag("http://www.picturesnew.com/media/images/edit.png", width:'40', height:'32'), edit_todoa_path(todoa) %></td>
+          <td><%= link_to image_tag("finish.png", width:'24',height:'24'), todoa, method: :delete %></td>
+          <td><%= link_to image_tag("edit.png", width:'24', height:'24'), edit_todoa_path(todoa) %></td>
         </tr>
     <% end %>
     </tbody>

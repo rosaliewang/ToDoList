@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="27813300">
-    <data-source source="LOCAL" name="Rails new_sample: development" uuid="7ac93021-ba36-4d67-a5f8-abc85ecb4be5">
+  <component name="DataSourceManagerImpl" format="xml" hash="2827004953">
+    <data-source source="LOCAL" name="Rails TodoList: development" uuid="7ac93021-ba36-4d67-a5f8-abc85ecb4be5">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -15,7 +15,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails new_sample: test" uuid="d80a33f1-6617-436a-8083-604ab0d20ab3">
+    <data-source source="LOCAL" name="Rails TodoList: test" uuid="d80a33f1-6617-436a-8083-604ab0d20ab3">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>

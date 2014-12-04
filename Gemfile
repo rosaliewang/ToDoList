@@ -44,7 +44,7 @@ gem 'bootstrap-will_paginate', '0.0.10'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'rename'
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'

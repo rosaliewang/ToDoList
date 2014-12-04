@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Rails new_sample: development" uuid="7ac93021-ba36-4d67-a5f8-abc85ecb4be5" />
-    <data-source name="Rails new_sample: test" uuid="d80a33f1-6617-436a-8083-604ab0d20ab3" />
+    <data-source name="Rails TodoList: development" uuid="7ac93021-ba36-4d67-a5f8-abc85ecb4be5" />
+    <data-source name="Rails TodoList: test" uuid="d80a33f1-6617-436a-8083-604ab0d20ab3" />
   </component>
 </project>
