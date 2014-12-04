@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @todoa.content %>
+</p>
+
+<p>
+  <strong>Due:</strong>
+  <%= @todoa.due %>
+</p>
+
+<%= link_to 'Edit', edit_todoa_path(@todoa) %> |
+<%= link_to 'Back', todoas_path %>

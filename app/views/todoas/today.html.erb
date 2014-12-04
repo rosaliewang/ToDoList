@@ -1,0 +1,42 @@
+<h2>Today's Todos</h2>
+
+<table>
+  <div>
+    <thead>
+    <tr>
+      <th>Content</th>
+      <th>Due</th>
+      <th colspan="3"></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% @todoas.each do |todoa| %>
+        <tr>
+          <td><%= todoa.content %></td>
+          <td><%= todoa.due %></td>
+          <td><%= link_to image_tag("http://www.psdgraphics.com/file/right-check-mark.jpg", width:'40',height:'32'), todoa, method: :delete %></td>
+
+          <td><%= link_to image_tag("http://www.picturesnew.com/media/images/edit.png", width:'40', height:'32'), edit_todoa_path(todoa) %></td>
+        </tr>
+    <% end %>
+    </tbody>
+  </div>
+</table>
+
+<br>
+
+<%= form_for Todoa.new do |f| %>
+    <div id="con">
+      <div id="con1">
+        <%= f.text_field :content, placeholder: "What needs to be done?",
+                         id: "new-todo", autofocus: true,
+                         "data-behavior" => "submit_on_enter" %>
+      </div>
+      <div id="con2">
+        <span class="datetime">
+          <%= f.date_select :due, :order => [:day, :month, :year], :start_year => 2014, :end_year => 2016%>
+        </span>
+      </div>
+    </div>
+<% end %>

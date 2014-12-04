@@ -1,0 +1,38 @@
+// Place all the styles related to the Todoas controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.datetime select:nth-child(1){
+  width: 65px;
+  text-indent: 15px;
+}
+
+.datetime select:nth-child(2) {
+  width: 110px;
+  text-indent: 5px;
+}
+
+.datetime select:nth-child(3) {
+  width: 70px;
+  text-indent: 5px;
+}
+
+div {
+  .t1 {
+    float: left;
+    width: 50%;
+  }
+  .t2 {
+    margin-left: 50%;
+  }
+  #con1 {
+    float: left;
+    width: 63%;
+  }
+  #con2 {
+    margin-left: 65%;
+  }
+}
+table {
+  width: 100%;
+}

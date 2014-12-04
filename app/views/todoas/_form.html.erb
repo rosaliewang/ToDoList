@@ -1,0 +1,28 @@
+<%= form_for(@todoa) do |f| %>
+  <% if @todoa.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@todoa.errors.count, "error") %> prohibited this todoa from being saved:</h2>
+
+      <ul>
+      <% @todoa.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div id="con">
+    <div id="con1">
+      <%= f.text_field :content %>
+    </div>
+    <div id="con2">
+      <span class="datetime">
+        <%= f.date_select :due, :order => [:day, :month, :year], :start_year => 2014, :end_year => 2016%>
+      </span>
+    </div>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>

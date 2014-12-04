@@ -1,0 +1,24 @@
+<h2>Done</h2>
+
+<table>
+  <div>
+    <thead>
+    <tr>
+      <th>Content</th>
+      <th>Due</th>
+      <th colspan="3"></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% @todone.each do |todoa| %>
+        <tr>
+          <td><%= todoa.content %></td>
+          <td><%= todoa.due %></td>
+        </tr>
+    <% end %>
+    </tbody>
+  </div>
+</table>
+
+<br>
